@@ -1,0 +1,58 @@
+@font-face {
+    font-family: SF Distant Galaxy;
+    src: url("./fonts/main.ttf");
+}
+
+html {
+    font-family: 'SF Distant Galaxy', Fallback, sans-serif;
+    letter-spacing: 2px;
+    background: url("../media/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+#title {
+    font-size: 5em;
+    color: #FFA72B;
+    text-align: center;
+}
+
+.button {
+    font-family: 'SF Distant Galaxy', Fallback, sans-serif;
+    background: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+
+.button:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #FFA72B;
+}
+
+.button:disabled {
+    background-color: rgba(51, 51, 51, 0.7);
+}
